@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_DevilSword
+  m_Shader: {fileID: -6465566751694194690, guid: fee17b47433f03147b04357854a2e122, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_a61e60e605df478c8ee2dd299d3b8edc_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 13fc543c73d8196479daa15dc17fac69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_cc2048d2d8f5402f845f551c832cbb1a_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 6f3520fad0e68fe48bff5b7e254d40b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexEmissionFlow:
+        m_Texture: {fileID: 2800000, guid: 13fc543c73d8196479daa15dc17fac69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_AO:
+        m_Texture: {fileID: 2800000, guid: 7ec261a1f622f2e4d96a20e1844675c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_BaseMap:
+        m_Texture: {fileID: 2800000, guid: fd1e35d8e97d1764f886ef922af29b66, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_Emission:
+        m_Texture: {fileID: 2800000, guid: b271af716769c384787320ee89f4f4c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_Height:
+        m_Texture: {fileID: 2800000, guid: cb335a82041aa184885770155935fe58, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_Metallic:
+        m_Texture: {fileID: 2800000, guid: a36b440302378b54cacd879a01f5c36f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_NormalMap:
+        m_Texture: {fileID: 2800000, guid: 330fb7aa513ad944983c3274eb9fb362, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_Opacity:
+        m_Texture: {fileID: 2800000, guid: 9022e6ed67b139b49a82d1d8f272183d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_Roughness:
+        m_Texture: {fileID: 2800000, guid: f53de6546973e66459aff994a948ca9c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Adjust: 2
+    - _BreathTime: 30
+    - _BreathnoiseCale: 25
+    - _ColorStrength: 5
+    - _EmissionFlow: 1
+    - _EmissionNoiseScale: 0
+    - _EmissionPower: 40
+    - _EmissionSpeed: 1
+    - _Float: 40
+    - _FresnelPower: 0.02
+    - _FresnelStrength: 1
+    - _MetallicPower: 1
+    - _NoiseScale: 25
+    - _NoiseScalePower: 2
+    - _NoiseSpeed: 0.1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Direction: {r: 0, g: -1, b: 0, a: 0}
+    - _EmiNoiseColorA: {r: 1, g: 0.46878785, b: 0, a: 1}
+    - _EmiNoiseColorB: {r: 2.4905663, g: 0, b: 0.081625745, a: 1}
+    - _EmissionDirection: {r: 0, g: -1, b: 0, a: 0}
+    - _FresnlColor: {r: 0.24528301, g: 0.005119319, b: 0, a: 1}
+    - _NoiseColor: {r: 0.3679245, g: 0, b: 0, a: 1}
+    - _NoiseColorA: {r: 0.5396226, g: 0.011200493, b: 0, a: 1}
+    - _NoiseColorB: {r: 1, g: 0.9667357, b: 0, a: 1}
+    - _NoiseDirection: {r: 1, g: -1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &9171462244921905491
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
