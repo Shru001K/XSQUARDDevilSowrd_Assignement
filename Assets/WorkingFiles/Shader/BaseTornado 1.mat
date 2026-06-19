@@ -47,7 +47,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Alpha: 0
-    - _Alpha_Mask: 0.32
+    - _Alpha_Mask: 0.2
     - _Emission: 1
     - _Fresnel_Glow: 1
     - _Fresnel_power: 1

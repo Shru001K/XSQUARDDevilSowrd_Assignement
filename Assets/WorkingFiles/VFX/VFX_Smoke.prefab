@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5686166446949528058}
   - component: {fileID: 3623528110683226352}
   m_Layer: 0
-  m_Name: VFX_DevilSword
+  m_Name: VFX_Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
